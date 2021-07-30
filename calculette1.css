@@ -1,0 +1,68 @@
+html{
+	padding:0px;
+	margin:0px;
+	background: #73BFB8;
+}
+
+body{
+	padding:0px;
+	margin:0px;	
+}
+
+#blocExterieur{
+	background-color:#13505B;
+	width:380px;
+	height:250px;
+	margin: 100px auto 0px auto;
+}
+
+#blocInterieur{
+	padding:0px;
+	margin: 10px 10px 0px 0px;
+	position: relative;
+	top: -10px;
+	left: -5px;
+}
+
+#ecran{
+	background-color:#9191E9;
+	width:360px;
+	height:50px;
+	margin-bottom:5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#ecran p{
+	width:330px;
+	height:30px;
+	background-color:#fff;
+	text-align: right;
+	padding: 0 10px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#clavier{
+	width:360px;
+	height:180px;
+	background-color:#9191E9;
+	display: flex;
+	flex-wrap: wrap;
+}
+.touches{
+	margin:5px;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background-color:#C2AFF0;
+	font: 20px 'arial','sans-serif';	
+	cursor: pointer;
+}
+
+.touches:active{
+	background-color: #F1EDEE;
+}
+
